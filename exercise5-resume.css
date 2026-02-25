@@ -1,0 +1,16 @@
+ body {font-family:Arial, Helvetica, sans-serif;
+            background-color:#a08480;
+            padding: 1.5rem;
+        }
+        h1 {color:#829ea9; background-color:#ffe4e1
+        }
+        p {margin: 1.5rem;
+        }
+        img{float: right;
+        border: 2px #f5f5f5 solid; /** controls boder width, color, line style **/
+        margin: .65rem;
+        max-width: 100%;
+        }
+        h2 {color:#ffe4e1;
+        margin: .65rem;}
+        
