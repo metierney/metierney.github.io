@@ -21,17 +21,17 @@
            }
 
            a:link {
-            color:#6e2e63;
+            color:#2c0325c4;
             text-decoration:none;}
 
            a:visited {
-            color:#4e191f;}
+            color:#d4c3d4ef;}
 
            a:hover {
             color:#483d8b}
 
            a:active{
-            color:#a0522d}
+            color:#34213c}
 
        img{float: right;
         border: 2px #f5f5f5 solid; /** controls boder width, color, line style **/
