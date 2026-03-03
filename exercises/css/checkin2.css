@@ -1,0 +1,61 @@
+ body {font-family:Arial, Helvetica, sans-serif;
+            background-color:#64817282;
+            padding: 1.5rem;
+        }
+        h1 {color:#D1D7C6; background-color: #0f1d2f43;
+            padding: 1.8rem;
+            text-transform: uppercase;
+        
+            font-family: "Finger Paint", sans-serif, monospace;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+            }
+       
+            hr {background-color:#710804b9;
+                padding: 0.1rem; 
+                border:none;
+               }
+
+            p {margin: 1.5rem;
+                padding-left: 1.1rem;
+                padding-right: 1.2rem;
+                line-height: 1.5rem;
+                font-family: "Quicksand", Courier, monospace;
+                background-color:#1d314613;
+                }
+                
+             li {padding-left: 1.1rem;
+                padding-right: 1.4rem;
+                font-family: "Quicksand", Courier, monospace;
+                }
+
+         
+           a:link {
+            color:#580505;
+            text-decoration:none;}
+
+           a:visited {
+            color:#b42e2ead;
+            text-decoration: underline dotted;}
+
+           a:hover {
+            color:#0059d6;
+            text-decoration: underline solid #710804b9;}
+
+       img{float: right;
+        border: 4px #ac5b4b solid; /** controls boder width, color, line style **/
+        margin: .65rem;
+        max-width: 100%;
+        }
+
+        h2 {color:#0b3560c5;
+        margin: .65rem;
+        text-decoration: underline solid #710804b9}
+
+        figcaption{margin: 1.5rem;
+                padding-left: 1.1rem;
+                padding-right: 1.2rem;
+                line-height: 1.5rem;
+                font-family: "Quicksand", Courier, monospace;}
+        
