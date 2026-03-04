@@ -36,14 +36,14 @@
             text-decoration:none;}
 
            a:visited {
-            color:#b42e2ead;
+            color:#b42e2e25;
             text-decoration: underline dotted;}
 
            a:hover {
             color:#0059d6;
             text-decoration: underline solid #710804b9;}
 
-       img{float: right;
+       img{
         border: 4px #ac5b4b solid; /** controls boder width, color, line style **/
         margin: .65rem;
         max-width: 100%;
