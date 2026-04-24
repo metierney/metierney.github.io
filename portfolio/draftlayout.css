@@ -101,10 +101,11 @@ float: left;
 
 /*About Me Footer*/
 .aboutmefooter footer{
-margin-top:30rem;
+margin-top:40rem;
 background-color:rgba(179, 163, 205, 0.604);
 justify-content:space-between;
 color: rgb(48, 44, 73);
 font-size: large;
 padding:1rem;
+
 }
