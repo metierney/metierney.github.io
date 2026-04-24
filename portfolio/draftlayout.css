@@ -1,8 +1,10 @@
 .indexwrapper{
     display:grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
     grid-template-columns: 2fr 2fr 2fr;
     height: 100vh;
+    background-image: url('../images/backgroundimage.jpg');
+    background-size: cover;
 }
 
 
@@ -39,23 +41,70 @@ nav ul{
 h1{
     text-align:center;
     margin: 0;
-    color:rgb(51, 93, 111);
+    color:rgb(21, 108, 146);
     font-size:100px;
-    grid-row-start:2;
-    grid-row-end: 3;
+    grid-row-start:1;
+    grid-row-end: 2;
     grid-column-start:1;
     grid-column-end:4;
+    margin-bottom: 0;
+    align-content: center;
     }
-/*Images*/
-body{
-    background-image: url("../../images/backgroundimage.jpg");
+
+.homep{
+    color:rgb(255, 255, 255);
+ grid-row-start: 2;
+ grid-row-end: 3;
+ grid-column-start: 2;
+ grid-column-end:  4;
+ align-self: end;
+ margin-top:0;
+ padding-top:0;
+ text-align:center;
+ background-color:rgb(113, 145, 186);
+ max-width: 30rem;
+ background-position: center;
+ background-blend-mode:lighten;
+ border-radius: 2rem;
+
 }
 
 
-
 /*Home Footer*/
-footer{
-    background-color:rgba(141, 132, 156, 0.604);
+.homefooter footer{
+    background-color:rgba(179, 163, 205, 0.604);
     justify-content:space-between;
-    text-decoration: white;
+    color: rgb(48, 44, 73);
+    font-size: large;
+    padding:1rem;
     }
+
+
+/*About Me Wrapper*/
+.aboutmewrapper{
+    background-color:rgb(251, 243, 229)
+}
+/*About Me Heading*/
+.aboutmeheading h1{
+font-size: 50px;
+color:rgb(68, 91, 149);
+}
+
+/*About Me Image*/
+.aboutmeimage img{
+width:400px;
+float: left;
+ border: 2px #f5f1f1 solid; 
+ margin-right: 2rem;
+
+}
+
+/*About Me Footer*/
+.aboutmefooter footer{
+margin-top:30rem;
+background-color:rgba(179, 163, 205, 0.604);
+justify-content:space-between;
+color: rgb(48, 44, 73);
+font-size: large;
+padding:1rem;
+}
