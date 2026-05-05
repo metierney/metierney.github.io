@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A-Introduction-Topics/Assistive-Technology.htm'],s:['123'],p:[['123',11],['most',1]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A-Introduction-Topics/About.htm'],s:['1','understood'],p:[['1',9],['find',5],['repetitions',5]]});
