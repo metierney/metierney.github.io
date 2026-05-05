@@ -2,7 +2,7 @@
     display:grid;
     grid-template-rows: 2fr 1fr 1fr 1fr;
     grid-template-columns: 2fr 2fr 2fr;
-    height: 83vh;
+    min-height: 100vh;
     background-image: url('../images/backgroundimage.jpg');
     background-size: cover;
 }
@@ -16,7 +16,7 @@ nav li{
     margin: 1rem;
     padding:15px;
     border-radius: 10%;
-    opacity: 0.9rem;
+    opacity: 0.9;
 
     }
 
@@ -197,9 +197,10 @@ a.fa-envelope{
     border-radius: 6px;
     color: rgb(214, 220, 224);
     padding: 4px;
+}
 
 /*Portfolio Wrapper*/
-}
+
 .portfoliowrapper{
     background-color:rgba(216, 199, 199, 0.803);
     overflow: hidden;
@@ -264,4 +265,8 @@ align-self: end;
     min-height: 100vh;
     background-color:rgba(216, 199, 199, 0.803);
     
+}
+
+.resumeheading{
+    margin-top:0;
 }
