@@ -2,7 +2,7 @@
     display:grid;
     grid-template-rows: 2fr 1fr 1fr 1fr;
     grid-template-columns: 2fr 2fr 2fr;
-    height: 100vh;
+    height: 83vh;
     background-image: url('../images/backgroundimage.jpg');
     background-size: cover;
 }
@@ -12,19 +12,23 @@
 /*Navigation Bar*/
 nav li{
     list-style-type: none;
-    background-color: rgba(73, 101, 126, 0.552);
+    background-color: rgba(98, 121, 142, 0.676);
     margin: 1rem;
+    padding:15px;
+    border-radius: 10%;
+    opacity: 0.9rem;
+
     }
 
 nav a {
     text-decoration: none;
     color: rgb(230, 225, 225);
-    padding:25px;
+    font-size: 1.1rem;
     }
 
 nav a:hover{
-    color:rgb(229, 222, 147);
-    background-color: rgb(142, 177, 179);
+    color:rgb(172, 173, 174);
+    
     }
 
 nav ul{
@@ -34,7 +38,7 @@ nav ul{
     padding: 15px;
     margin: 0;
     flex-wrap: wrap;
-    gap: 25px;
+
 }
 
 ul li ul{
@@ -82,6 +86,8 @@ h1{
     grid-column-end:4;
     margin-bottom: 0;
     align-content: center;
+    margin-top: 2rem;
+    font-family: "Mulish", FingerPaint, Arial;
     }
 
 .homep{
@@ -96,7 +102,9 @@ h1{
  background-color:rgb(113, 145, 186);
 border-radius: 2rem;
 padding: 6px;
-margin-bottom: 6rem;
+margin-bottom: 4rem;
+opacity: 0.9;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -104,19 +112,16 @@ margin-bottom: 6rem;
 /*Home Footer*/
 .homefooter footer{
     background-color:rgb(141, 132, 156);
-    justify-content:space-between;
     align-items: center;
     color: rgb(48, 44, 73);
-    font-size: large;
-    font-weight: bold;
     padding: 8px;
     align-items: center;
-    display: flex;}
-
-    a:link{
-        color:rgb(242, 241, 239)
+    display: flex;
+    gap:0.5rem;
+  
     }
 
+/* Social Media Icons*/
 
  a.fa-linkedin{
     border-radius: 6px;
@@ -126,14 +131,27 @@ margin-bottom: 6rem;
     color:white;
 }
 
+a.fa-envelope{
+    border-radius: 6px;
+    color: rgb(214, 220, 224);
+    padding: 4px;
+
+}
+
 /*About Me Wrapper*/
 .aboutmewrapper{
-    background-color:rgba(216, 199, 199, 0.803)
+    min-height: 88vh;
+    background-color:rgba(216, 199, 199, 0.803);
+    
+   
 }
 /*About Me Heading*/
 .aboutmeheading h1{
 font-size: 50px;
-color:rgb(68, 91, 149);
+color:rgb(21, 108, 146);
+margin-top:0;
+    font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 /*About Me Image*/
@@ -142,37 +160,108 @@ width:400px;
 float: left;
  border: 2px #f5f1f1 solid; 
  margin-right: 2rem;
+ 
 
+}
+/*About Me Paragraph*/
+.aboutmep {
+    margin-top:2rem;
+    background:rgb(215, 180, 180);
+    padding: 2rem;
+    font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*About Me Footer*/
 .aboutmefooter footer{
-margin-top:30rem;
-background-color:rgb(141, 132, 156);
-justify-content:space-between;
-color: rgb(48, 44, 73);
-font-size: large;
-padding:1rem;
+ background-color:rgb(141, 132, 156);
+    align-items: center;
+    color: rgb(48, 44, 73);
+    padding: 8px;
+    align-items: center;
+    display: flex;
+    gap:0.5rem;
+    margin-top:19rem;
+    }
 
+/* Social Media Icons*/
+
+ a.fa-linkedin{
+    border-radius: 6px;
+    border: 2px solid rgb(37, 107, 154); 
+    padding:4px;
+    background-color: rgb(37, 107, 154);
+    color:white;
+}
+
+a.fa-envelope{
+    border-radius: 6px;
+    color: rgb(214, 220, 224);
+    padding: 4px;
+
+/*Portfolio Wrapper*/
 }
 .portfoliowrapper{
-    background-color:rgba(216, 199, 199, 0.803)
+    background-color:rgba(216, 199, 199, 0.803);
+    overflow: hidden;
+    
+
+/*Portfolio Heading*/
 }
+.portfolioh1{
+    margin-top:0;
+    font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
  /*Portfolio Blurb*/
  .portfolioblurb{
  align-self: end;
  text-align:center;
  justify-self: center;
- background-color:rgb(144, 165, 192);
- border-radius: 2rem;
- padding: 6px;
+ font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+
     
+/*Portfolio First Paragraph*/
+ .portfoliop1{
+align-self: end;
+ text-align:center;
+ justify-self: center;
+ background-color: rgb(215, 180, 180);
+ padding: 6px;
+ border-radius: 20px;
+ max-width: 65rem;
  }
 
- .portfoliop1{
+ /*Portfolio Second Paragraph*/
+  .portfoliop2{
     align-self: end;
  text-align:center;
  justify-self: center;
- background-color:rgb(144, 165, 192);
- padding: 6px;
+ background-color:#fceae6;;
+ padding: 2px;
+ border-radius: 20px;
  }
+
+/*Portfolio Third Paragraph*/
+  .portfoliop3{
+    align-self: end;
+ text-align:center;
+ justify-self: center;
+ background-color:#fceae6;
+ padding: 2px;
+ border-radius: 20px;
+ }
+
+
+/*Portfolio Links.  STILLLLLLLLLLL WORKIIINNG. ONNNN. ADDD FOOTER TOOOOOOOOOOOO*/
+
+
+
+
+/*Resume Wrapper*/
+.resumewrapper{
+    min-height: 100vh;
+    background-color:rgba(216, 199, 199, 0.803);
+    
+}
