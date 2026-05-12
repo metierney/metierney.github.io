@@ -433,7 +433,7 @@
 .micro-response-1530530735 div.MCBreadcrumbsBox_0
 {
 	border-bottom-width: 0;
-	color: #45494C;
+	color: #696969;
 	border-bottom-style: solid;
 	border-bottom-color: black;
 	padding-bottom: 10px;
@@ -446,24 +446,14 @@
 	padding: 10px 0;
 }
 
-.micro-response-1530530735 .dropDownHotspot
+.micro-response-1530530735 .dropDownHead
 {
-	cursor: hand;
 	text-decoration: none;
-	color: #45494C;
-	font-size: 20pt;
-	font-weight: bold;
-	border-bottom: none;
 }
 
-.micro-response-1530530735 .dropDownHotspot:link
+.micro-response-1530530735 .dropDownHead:link
 {
-	cursor: hand;
 	text-decoration: none;
-	color: #45494C;
-	font-size: 20pt;
-	font-weight: bold;
-	border-bottom: none;
 }
 
 .micro-response-1530530735 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
@@ -480,11 +470,6 @@
 	background-image: url('Plus.png');
 	padding-left: 10px;
 	padding-right: 0;
-}
-
-.micro-response-1530530735 .dropDownHead
-{
-	text-decoration: none;
 }
 
 .micro-response-1530530735 .dropDownBody

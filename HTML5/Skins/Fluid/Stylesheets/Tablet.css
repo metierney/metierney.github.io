@@ -15,7 +15,7 @@
 	{
 		height: 100%;
 		overflow-x: hidden;
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	.off-canvas-content
@@ -58,7 +58,8 @@
 		background-repeat: no-repeat;
 		padding-top: 15px;
 		padding-bottom: 15px;
-		background-color: #076685;
+		background: #2f4f4f none;
+		-pie-background: #2f4f4f;
 	}
 
 	/* Topbar Menu Styles */
@@ -85,8 +86,10 @@
 	{
 		top: 0;
 		margin: 0;
-		background: transparent url('Images/Logo.svg') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.svg') no-repeat center center;
+		width: 403px;
+		height: 97px;
+		background: transparent url('Images/newmeglogoooooo0.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/newmeglogoooooo0.png') no-repeat center center;
 	}
 
 	.title-bar .menu-icon span
@@ -156,7 +159,7 @@
 	{
 		font-size: 1em;
 		line-height: inherit;
-		border-bottom: solid 1px #45494C;
+		border-bottom: solid 1px #696969;
 		color: #FFFFFF;
 	}
 
@@ -442,13 +445,13 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 40px;
+		min-height: 97px;
 		flex-basis: 100%;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 40px;
+		min-height: 97px;
 	}
 
 	.off-canvas-wrapper-inner .outer-row
@@ -845,7 +848,7 @@
 
 	.off-canvas ul ul
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list ul > li > a
@@ -881,32 +884,32 @@
 	ul.off-canvas-list li a:hover
 	{
 		color: #A4AAAE;
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list ul ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list ul ul ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list li.js-drilldown-back > a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list li.is-accordion-submenu-parent > a span.submenu-toggle:hover
@@ -1297,6 +1300,7 @@
 
 	.featured-snippets-container .micro-content
 	{
+		background: none;
 		background-position: center center;
 	}
 
@@ -1394,7 +1398,7 @@
 
 	.skip-to-content
 	{
-		color: #45494C;
+		color: #696969;
 		background-color: #FFFFFF;
 	}
 }

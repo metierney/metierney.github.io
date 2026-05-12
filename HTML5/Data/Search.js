@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A-Introduction-Topics/About.htm'],s:['0','perman'],p:[['0',16],['color',18],['important',7],['primarily',0],['to',22]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A-Introduction-Topics/About.htm'],s:['+','it','webaim'],p:[['+',26],['blank',17],['drop',26],['information',23],['opposing',25],['stacy',27],['user',20]]});

@@ -6,13 +6,16 @@
 	{
 		background-position: center top;
 		background-repeat: no-repeat;
-		background-color: #076685;
+		background: #2f4f4f none;
+		-pie-background: #2f4f4f;
 	}
 
 	.title-bar-layout a.logo
 	{
-		background: transparent url('Images/Logo.svg') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.svg') no-repeat center center;
+		width: 403px;
+		height: 97px;
+		background: transparent url('Images/newmeglogoooooo0.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/newmeglogoooooo0.png') no-repeat center center;
 	}
 
 	.search-bar .search-submit
@@ -200,32 +203,32 @@
 
 	ul.off-canvas-list li a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list ul ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list ul ul ul ul > li > a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list li.js-drilldown-back > a:hover
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	#resultList .glossary .term a:hover
@@ -413,12 +416,12 @@
 
 	.title-bar-layout .logo-wrapper
 	{
-		min-height: 40px;
+		min-height: 97px;
 	}
 
 	.menu-icon-container
 	{
-		min-height: 40px;
+		min-height: 97px;
 	}
 
 	.off-canvas-wrapper-inner .main-section > .outer-row
@@ -759,12 +762,12 @@
 
 	.off-canvas
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	.off-canvas ul ul
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	ul.off-canvas-list li a
@@ -1151,6 +1154,7 @@
 
 	.featured-snippets-container .micro-content
 	{
+		background: none;
 		background-position: center center;
 	}
 
@@ -1223,7 +1227,7 @@
 
 	.skip-to-content
 	{
-		color: #45494C;
+		color: #696969;
 		background-color: #FFFFFF;
 	}
 }

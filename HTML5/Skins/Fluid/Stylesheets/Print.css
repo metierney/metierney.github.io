@@ -23,7 +23,9 @@
 	{
 		display: none;
 		background-repeat: no-repeat;
-		background-color: #076685;
+		background: #2f4f4f none;
+		-pie-background: #2f4f4f;
+		background-position: center top;
 	}
 
 	/* Side Navigation Menu styles */
@@ -31,7 +33,7 @@
 	.sidenav-wrapper
 	{
 		display: none;
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	.sidenav-wrapper ul.menu
@@ -410,8 +412,8 @@
 
 	.title-bar-layout a.logo
 	{
-		background: transparent url('Images/Logo.svg') no-repeat center center;
-		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/Logo.svg') no-repeat center center;
+		background: transparent url('Images/newmeglogoooooo0.png') no-repeat center center;
+		-pie-background: transparent url('Skins/Fluid/Stylesheets/Images/newmeglogoooooo0.png') no-repeat center center;
 	}
 
 	.main-section > .outer-row
@@ -1053,6 +1055,7 @@
 
 	.featured-snippets-container .micro-content
 	{
+		background: none;
 		background-position: center center;
 	}
 
@@ -1125,7 +1128,7 @@
 
 	.sidenav-container ul ul
 	{
-		background-color: #45494C;
+		background-color: #696969;
 	}
 
 	.sidenav-container
