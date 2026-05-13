@@ -1,3 +1,4 @@
+/*Home Wrapper*/
 .indexwrapper{
     display:grid;
     grid-template-rows: 2fr 1fr 1fr 1fr;
@@ -75,7 +76,8 @@ ul li ul li {
   text-align: center;
   max-width: fit-content;
 }
-/*Heading + Blurb*/
+
+/*Home Page Heading + Blurb*/
 h1{
     text-align:center;
     margin: 0;
@@ -102,7 +104,7 @@ h1{
  text-align:center;
  justify-self: center;
  background-color:rgb(113, 145, 186);
-border-radius: 2rem;
+border-radius: 10%;
 padding: 6px;
 margin-bottom: 4rem;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -112,17 +114,22 @@ font-size:1.2rem;
 
 
 /*Home Footer*/
-.homefooter footer{
+.homefooter {
     background-color:rgb(141, 132, 156);
     align-items: center;
+    justify-content: center;
     color: rgb(48, 44, 73);
     padding: 8px;
-    align-items: center;
     display: flex;
     gap:0.5rem;
+    margin:0;
   
     }
-
+.homefooter p{
+    color:#fffdfc;
+    font-size: 10px;
+    justify-content:right;
+}
 /* Social Media Icons*/
 
  a.fa-linkedin{
@@ -131,6 +138,7 @@ font-size:1.2rem;
     padding:4px;
     background-color: rgb(37, 107, 154);
     color:white;
+
 }
 
 a.fa-envelope{
@@ -141,14 +149,16 @@ a.fa-envelope{
 }
 
 /*About Me Wrapper*/
-.aboutmewrapper{
-    min-height: 84vh;
-    background-color:rgba(216, 199, 199, 0.803);
+body{
+    min-height:100vh;
+    background-color:rgba(216, 199, 199, 0.803);  
+    width:100%;
+    margin:auto;
+}
     
    
-}
 /*About Me Heading*/
-.aboutmeheading h1{
+.aboutmewrapper h1{
 font-size: 70px;
 color:rgb(21, 108, 146);
 margin-top:0;
@@ -175,15 +185,15 @@ float: left;
 }
 
 /*About Me Footer*/
-.aboutmefooter footer{
+.aboutmefooter{
  background-color:rgb(141, 132, 156);
     align-items: center;
+    justify-content: center;
     color: rgb(48, 44, 73);
     padding: 8px;
-    align-items: center;
     display: flex;
     gap:0.5rem;
-    margin-top:17rem;
+    margin-top:5rem ;
     }
 
 /* Social Media Icons*/
@@ -208,7 +218,6 @@ a.fa-envelope{
     background-color:rgba(216, 199, 199, 0.803);
     overflow: hidden;
     text-align: center;
-    
 
 /*Portfolio Heading*/
 }
@@ -218,7 +227,7 @@ a.fa-envelope{
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     border-radius: 4px;
 }
-.portfolioh1 h1{
+.portfoliowrapper h1{
     margin-top:0;
     font-size:70px;
     font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -245,16 +254,15 @@ a.fa-envelope{
     border:#fffdfc;
     border-radius: 5%;
     max-width: 50rem;
-    margin:0 auto;
+    margin-bottom: 2rem;
 }
 /*Portfolio First Paragraph*/
  .portfoliop1{
- text-align:center;
+ text-align:left;
   background-color:rgb(215, 180, 180);
   border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    text-align: center;
     margin: 1rem auto;
     font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     max-width: 60rem;
@@ -266,37 +274,39 @@ a.fa-envelope{
   border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    text-align: center;
+    text-align: left;
     margin: 1rem auto;
     font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        max-width: 60rem;
+    max-width: 60rem;
  }
 
 /*Portfolio Third Paragraph*/
   .portfoliop3{
- text-align:center;
+ text-align:left;
  background-color:rgb(215, 180, 180);
   border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    text-align: left;
     margin: 1rem auto;
     font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        max-width: 60rem;
+    max-width: 60rem;
  }
 
 
  
-.portfoliowrapper footer{
-    background-color:rgb(141, 132, 156);
+footer{
+
+ background-color:rgb(141, 132, 156);
     align-items: center;
+    justify-content: center;
     color: rgb(48, 44, 73);
     padding: 8px;
-    align-items: center;
     display: flex;
     gap:0.5rem;
-    margin-top:13rem;
+    margin-top:5rem ;
+    margin:0;
     }
+
 
 /*Portfolio Links.  STILLLLLLLLLLL WORKIIINNG. ONNNN. ADDD FOOTER TOOOOOOOOOOOO*/
 
@@ -305,38 +315,174 @@ a.fa-envelope{
 
 /*Resume Wrapper*/
 .resumewrapper{
-    min-height: 100vh;
-    background-color:rgba(216, 199, 199, 0.803);    
+    min-height:100%;
+    background-color:rgba(216, 199, 199, 0.803);  
+    width:100%;
 }
-
-.resumeheading h1{
-    margin-top:-0.2rem;
+/*Resume Heading + List */
+.resumewrapper h1{
+  margin-top:-0.2rem;
     font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 70px;
     
 }
 .resumeul{
-    list-style-position: inside;
-  text-align: left;
-  margin: 0 auto;
+list-style-position: outside;
+text-align: left;
+margin: 0 auto;
 max-width: 600px;
 background-color: #ece7e1;
 border-radius: 2rem;
-padding: 3rem;
+padding: 4rem;
+    font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
 
 }
-
+/* Heading2 + Footer*/
 .resumewrapper h2{
     background-color: rgb(215, 180, 180);
+    padding:6px;
 }
 
-.resumewrapper footer{
+.resumefooter{
     background-color:rgb(141, 132, 156);
+    align-items: center;
+    justify-content: center;
+    color: rgb(48, 44, 73);
+    padding: 8px;
+    display: flex;
+    gap:0.5rem;
+    margin:0;
+
+}
+
+/*Experience Portfolio Wrapper*/
+.experiencewrapper{
+    min-height: 100vh;
+    background-color:rgba(216, 199, 199, 0.803);    
+}
+
+/*Experience Portfolio Heading*/
+.experienceh1 h1{
+margin-top:0;
+    font-size:70px;
+    font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Experience Portfolio Marketing Wrapper*/
+.experiencewrapperh2{
+    display:grid;
+    gap: 20px;
+    justify-content: space-around;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 0rem;
+    background-color: #ece7e1;
+    border-radius: 3rem;
+    padding: 2rem;
+    align-content: center;
+    max-width: 70rem;
+    max-height: fit-content;
+    overflow: hidden;
+    margin: auto;
+
+}
+/*Experience Portfolio Heading2*/
+.experiencewrapperh2 h2, 
+.experiencewrapperh2 p {
+    grid-column: 1 / -1; 
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .experiencewrapperh2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: auto; }}
+/*Experience Portfolio Family Tree Wrapper*/
+.familytree{
+    margin-top: 8rem;
+    background-color: #ece7e1;
+    padding: 2rem;
+    border-radius: 3rem;
+    padding: 2rem;
+    align-content: center;
+    overflow: hidden;
+    max-width: 70rem;
+    align-content: center;
+    margin:auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.familytree img{
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+}
+.familytree h2,
+.familytree p{
+    text-align: center;
+}
+.resumefooter p{
+    color:#f5f1f1;
+   font-style: italic;
+}
+
+/*Exercises Wrapper*/
+.exercises{
+    background-color:rgba(216, 199, 199, 0.803);
+    min-height:100vh;
+}
+/*Exercises Heading*/
+
+.exercises h1{
+margin-top:-0.2rem;
+    font-family: 'mulish', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+}
+
+/*Exercises Blurbs + Links*/
+
+.exercises p{
+    margin: 4rem;
+    max-width:max-content;
+     background-color: rgb(247, 234, 219);
+    border-radius: 3rem;
+    padding: 2rem;
+    align-content: center;
+    text-align: left;
+    max-width: 70rem;
+    max-height: fit-content;
+}
+
+.exercises a{
+    text-align:center;
+    align-content: center;
+    display: block;
+    background-color: rgb(247, 234, 219);
+    border-radius: 30rem;
+    padding: 1rem;
+    max-width:max-content;
+    margin:auto;
+}
+.exercises a:link{
+    color: rgb(77, 41, 178);
+}
+.exercises a:hover{
+    color:rgba(0, 27, 110, 0.852);
+}
+
+/*Exercises Footer*/
+.exercisesfooter{
+ background-color:rgb(141, 132, 156);
     align-items: center;
     color: rgb(48, 44, 73);
     padding: 8px;
     align-items: center;
     display: flex;
     gap:0.5rem;
-    margin-top:2rem;
-}
+    margin:0;
+    }
